@@ -75,7 +75,18 @@ export MODEL_NAME="gpt-4"
 Skill-Bank/
 ├── README.md
 ├── LICENSE
-└── ... (skills to be added)
+├── .gitignore
+└── skills/
+    ├── communication/    # Email, messaging, notifications, chat skills
+    ├── filesystem/       # File read/write, directory management skills
+    ├── web/              # HTTP requests, scraping, browser automation skills
+    ├── data/             # Data parsing, transformation, validation skills
+    ├── ai/               # AI model interaction, chaining, orchestration skills
+    ├── memory/           # Context storage, retrieval, caching skills
+    ├── enterprise/       # CRM, ERP, business process integration skills
+    ├── system/           # OS, process, shell command execution skills
+    ├── security/         # Auth, encryption, secrets management skills
+    └── analytics/        # Metrics, reporting, visualization skills
 ```
 
 ## Contributing
